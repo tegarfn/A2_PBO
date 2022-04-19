@@ -66,7 +66,8 @@ public class main{
         System.out.print("| Jumlah : ");
         int jumlah = Integer.parseInt(input.readLine());
         baju b = new baju(tipe, model, ukuran, warna, jumlah);
-        b.buat();
+        b.buat(jumlah);
+        b.selesai();
         listbaju.add(b);
     }
     static void tambahjaket()throws IOException{
@@ -83,7 +84,8 @@ public class main{
         System.out.print("| Jumlah : ");
         int jumlah = Integer.parseInt(input.readLine());
         jaket j = new jaket(tipe, model, ukuran, warna, jumlah);
-        j.buat();
+        j.buat(jumlah);
+        j.selesai();
         listjaket.add(j);
     }
     

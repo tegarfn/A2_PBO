@@ -28,5 +28,11 @@ class pakaian {
     }
     public int getjumlah(){
         return jumlah;
-    }    
+    }
+    void buat(){
+        System.out.println("| membuat " + jumlah + " pakaian...");
+    }
+    void selesai(){
+        System.out.println("| Selesai membuat pakaian...");
+    }
 }

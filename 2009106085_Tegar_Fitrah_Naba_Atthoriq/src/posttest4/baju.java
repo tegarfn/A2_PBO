@@ -14,7 +14,10 @@ class baju extends pakaian{
     public String getmodel(){
         return model;
     }
-    void buat(){
-        System.out.println("| membuat " + jumlah + " baju...");
+    void buat(int jb){
+        System.out.println("| membuat " + jb + " baju...");
+    }
+    void selesai(){
+        System.out.println("| Selesai membuat baju...");
     }
 }
